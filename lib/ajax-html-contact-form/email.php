@@ -1,6 +1,6 @@
 <?php
-$subject = $_REQUEST['subject'] . ' : Borno Contact Form'; // Subject of your email
-$to = "bureau@epitech-alumni.org";  //Recipient's E-mail
+$subject = '[Demande d\'information]' . $_REQUEST['subject']; // Subject of your email
+$to = "bureau@asso-epitech-alumni.org";  //Recipient's E-mail
 
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= "From: " . $_REQUEST['emailaddress'] . "\r\n"; // Sender's E-mail
