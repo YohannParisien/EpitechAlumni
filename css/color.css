@@ -19,7 +19,7 @@
 }
 
 .top_btn{
-	background:#2ebdf2;
+	background:#123241;
 }
 
 .heading span{
@@ -49,7 +49,7 @@
 }
 
 .how_can_you_help{
-	background:RGBA(222, 64, 98, 0.9);
+	background:#123241;
 }
 
 .act .fa{
@@ -85,9 +85,21 @@ p.readmore a{
 }
 
 .contact{
-	background:RGBA(222, 64, 98, 0.9);
+	background:rgba(210, 210, 210, 0.7);
 }
 
 .footer{
+	background:#2ebdf2;
+}
+
+.how_can_you_help .heading span.brd {
+	color: white;
+}
+
+.how_can_you_help .fa {
+	color: white !important;
+}
+
+.about_us {
 	background:#2ebdf2;
 }
